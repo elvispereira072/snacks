@@ -723,6 +723,18 @@
         <p>&copy; 2024 HotDog - All rights reserved.</p>
     </div>
 
+    /**
+   * Animation on scroll
+   */
+  window.addEventListener('load', () => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    })
+  });
+
     </footer>
 </body>
 
